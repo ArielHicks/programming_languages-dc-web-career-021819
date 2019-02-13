@@ -57,4 +57,3 @@ def reformat_languages(languages)
   end
   language_attributes
 end
-end
