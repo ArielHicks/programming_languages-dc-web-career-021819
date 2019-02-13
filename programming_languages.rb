@@ -33,8 +33,8 @@
 
 def reformat_languages(languages)
     # your code here
-    hash = {}
-    # hash[:my_key] = {second_level_key: "second level value"}
-    hash[:ruby] = {type: "interpreted", style: [:oo]}
-    hash
+    language_attributes = {}
+
+    languages.each do |oo_or_functional, language_hash|
+       #:oo, {:ruby => {...}}
 end
